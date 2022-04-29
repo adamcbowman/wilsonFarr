@@ -20,6 +20,7 @@ const LeafBannerSection = () => {
         className="container flex flex-col"
         style={{ position: `absolute`, top: `0`, left: `0` }}
       >
+        <h1 className="hidden">Wilson & Farr Cleaning Solutions</h1>
         <h1 className="text-xl lg:text-4xl px-6 lg:px-20 text-gray-100 mt-20 font-bold">
           HOME & OFFICE CLEANING PROFESSIONALS
         </h1>

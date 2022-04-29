@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="pt-4 md:pt-6">
       <div className="container mx-auto px-8 items-center text-center">
         <div className="container flex flex-col items-center">
-          <StaticImage src="../../images/logo.jpg" alt="logo" width="550" />
+          <StaticImage src="../../images/logo.jpg" alt="Wilson Farr Cleaning Services logo" width="550" />
         </div>
       </div>
     </section>
