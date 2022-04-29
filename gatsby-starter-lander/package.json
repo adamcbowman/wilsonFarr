@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-wilson-farr",
+  "author": "Adam Bowman",
+  "repository": "",
+  "version": "1.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.0.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "daisyui": "^2.14.2",
+    "emotion": "^11.0.0",
+    "gatsby": "^4.0.0",
+    "gatsby-plugin-emotion": "^7.0.0",
+    "gatsby-plugin-fontawesome-css": "^1.2.0",
+    "gatsby-plugin-image": "^2.13.0",
+    "gatsby-plugin-react-helmet": "^5.13.0",
+    "gatsby-source-filesystem": "^4.13.0",
+    "gatsby-theme-codebushi": "^1.0.0",
+    "postcss": "^8.3.8",
+    "react": "^17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
+  }
+}

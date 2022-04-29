@@ -1,0 +1,24 @@
+@tailwind base;
+
+body {
+  background: #000;
+}
+
+h1 {
+  color: rgb(98, 213, 51);
+}
+
+p {
+  color: white;
+}
+
+a {
+  @apply text-primary;
+}
+a:hover {
+  @apply text-primary-darker;
+}
+
+@tailwind components;
+
+@tailwind utilities;
