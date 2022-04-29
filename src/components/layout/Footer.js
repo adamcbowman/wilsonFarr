@@ -23,7 +23,7 @@ const Footer = () => (
       </div>
       <p className="p-2 font-thin text-lg">Kentville, Nova Scotia</p>
       <p className="p-2 text-lg font-sans">
-        <a href="tel:1-902-993-0049" className="text-white">
+        <a href="tel:+19029930049" className="text-white">
           902-993-0049
         </a>
       </p>
