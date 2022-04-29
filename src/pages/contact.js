@@ -4,9 +4,11 @@ import Layout from '../components/layout/Layout';
 const contact = () => {
   return (
     <Layout>
-      <section className="pt-4 md:pt-10">
-        <div className="container mx-auto px-8 items-center text-center">
-          <div className="text-primary text-xl">contact us form goes here</div>
+      <section>
+        <div className="px-8 items-center text-center bg-white w-full h-screen">
+          <div className="text-black text-xl pt-20">
+            <h1 className="text-xl text-black font-bold">Contact Us</h1>
+          </div>
         </div>
       </section>
     </Layout>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,6 +54,7 @@ const Header = () => {
 
         {/* mobile nav */}
         <nav class="md:hidden px-4 py-4 flex justify-end items-center">
+          {/* add icon !index page? */}
           <button class="outline-none mobile-menu-button" onClick={toggleMenu}>
             <svg
               class=" w-8 h-8 text-gray-500" 
