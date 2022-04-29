@@ -6,6 +6,9 @@ module.exports = {
     `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-theme-codebushi`,
+      fallback: {
+        fs: false,
+      },
       options: {
         tailwindConfig: `tailwind.config.js`,
       },

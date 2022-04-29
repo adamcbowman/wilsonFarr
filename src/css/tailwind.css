@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   background: #000;
@@ -18,7 +20,3 @@ a {
 a:hover {
   @apply text-primary-darker;
 }
-
-@tailwind components;
-
-@tailwind utilities;

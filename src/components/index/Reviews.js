@@ -1,4 +1,3 @@
-import { fromJSON } from 'postcss';
 import React from 'react';
 import bgImg from '../../images/green-leaf-wallpapers.jpg';
 
