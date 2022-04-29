@@ -13,5 +13,11 @@ module.exports = {
         tailwindConfig: `tailwind.config.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: "src/images/favicon.png",
+      },
+    },
   ],
 };

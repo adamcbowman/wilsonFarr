@@ -6,7 +6,7 @@ import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 const Footer = () => (
   <footer className="container flex justify-center mx-auto py-16 px-3 mt-24 mb-2 text-gray-800">
     <div className="flex flex-col -mx-3 items-center justify-center">
-      <StaticImage src="../../images/logo.jpg" alt="logo" width="250"/>
+      <StaticImage src="../../images/logo.jpg" alt="logo" width="260"/>
       <div className="flex ">
         <a
           href="https://www.facebook.com/Wilson-Farr-Cleaning-Solutions-113754693875893"
