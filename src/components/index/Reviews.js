@@ -4,26 +4,23 @@ import ReviewCarousel from "./ReviewCarousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-
-
-
 const Reviews = () => {
   return (
-    <section id="features" className="pt-10 bg-white" style={{ position: 'relative' }}>
+    <section id="features" className="md:pt-10 bg-white" style={{ position: 'relative' }}>
       <div className="flex w-screen bg-black">
         <div
           className="w-screen bg-cover bg-center"
-          style={{ backgroundImage: `url(${bgImg})`, height: "50vh", opacity: "0.8" }}
+          style={{ backgroundImage: `url(${bgImg})`, minHeight: `400px`, opacity: "0.8" }}
         ></div>
          
           <div className="flex flex-col items-center justify-items-center" style={{ position: 'absolute'}}>
-            <div className="py-6">
-              <FontAwesomeIcon icon={faStar} className=" py-12 px-4 text-yellow-400 text-6xl" />
-              <FontAwesomeIcon icon={faStar} className=" py-12 px-4 text-yellow-400 text-6xl" />
-              <FontAwesomeIcon icon={faStar} className=" py-12 px-4 text-yellow-400 text-6xl" />
-              <FontAwesomeIcon icon={faStar} className=" py-12 px-4 text-yellow-400 text-6xl" />
-              <FontAwesomeIcon icon={faStar} className=" py-12 px-4 text-yellow-400 text-6xl" />
-            </div>
+            <div className="p-4 md:pt-6">
+              {
+                [1,2,3,4,5].map(i => (
+                  <FontAwesomeIcon key={i} icon={faStar} className="py-12 px-4 text-yellow-400 text-2xl md:text-6xl" />   
+                ))
+                }
+              </div>
             <ReviewCarousel />
          </div>
       </div>

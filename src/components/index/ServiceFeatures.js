@@ -4,7 +4,7 @@ const ServiceFeatures = () => {
   return (
     <section className="pt-4 bg-white">
       <div className="container mx-auto px-8 items-center">
-        <div className="flex flex-row mt-10 md:text-justify">
+        <div className="md:flex md:flex-row  md:text-justify">
           <div className="w-full md:w-1/2 md:px-12 py-6">
             <p className="text-gray-700 text-xl md:text-2xl">
               Wilson & Farr Cleaning Solutions provides quality cleaning services that focus on the
@@ -12,8 +12,8 @@ const ServiceFeatures = () => {
               cleaning procedures. We are the perfect choice for your home or business!
             </p>
           </div>
-          <div className="hidden md:w-1/2 md:flex flex-row font-semibold text-gray-800">
-            <div className="w-1/2 p-6 ">
+          <div className="p-6 w-full md:w-1/2 md:flex flex-row font-semibold text-gray-800">
+            <div className="w-full md:w-1/2  ">
               <ul  style={{ listStyleType: `'✅'` }}>
                 <li className='p-1'> Quality-Focused Services </li>
                 <li className='p-1'> Insured </li>
@@ -24,7 +24,7 @@ const ServiceFeatures = () => {
                 <li className='p-1'> Office Cleaning Service</li>
               </ul>
             </div>
-            <div className="w-1/2 p-6">
+            <div className="w-full md:w-1/2">
               <ul  style={{ listStyleType: `'✅'` }}>
                 <li className='p-1'>Professional & Devoted Teams</li>
                 <li className='p-1'>Detail-Oriented</li>

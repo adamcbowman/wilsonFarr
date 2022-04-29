@@ -14,10 +14,10 @@ const Header = () => {
       name: 'Home',
       link: '/',
     },
-    {
-      name: 'About',
-      link: '/about',
-    },
+    // {
+    //   name: 'About',
+    //   link: '/about',
+    // },
     {
       name: 'Cleaning Services',
       link: '/cleaning-services',
@@ -72,7 +72,7 @@ const Header = () => {
           <div class="mobile-menu w-screen h-screen">
             <ul>
               {navLinks.map((link) => (
-                <li>
+                <li className='py-6'>
                   <Link
                     key={link.name}
                     to={link.link}
