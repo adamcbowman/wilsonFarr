@@ -72,7 +72,7 @@ const Header = () => {
           <div class="mobile-menu w-screen h-screen">
             <ul>
               {navLinks.map((link) => (
-                <li className='py-6'>
+                <li className='py-4'>
                   <Link
                     key={link.name}
                     to={link.link}
