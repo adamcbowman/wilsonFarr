@@ -43,8 +43,7 @@ const cleaningServices = () => {
             <StaticImage
               src="../images/bathroom.png"
               alt="Wilson Farr Cleaning Services logo"
-              className="w-1/2 self-center"
-              style={{ minHeight: `300px`, minWidth: `360px` }}
+              className="w-3/4 self-center"
             />
 
             <h1 className="text-xl font-semibold text-gray-900 pt-8">
