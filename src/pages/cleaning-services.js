@@ -39,11 +39,14 @@ const cleaningServices = () => {
       <section>
         <div className="flex w-full bg-white p-12" style={{ width: `100vw` }}>
           {/* left column desktop*/}
-          <div className="flex flex-col justify-center w-1/2 px-24">
+          <div className="flex flex-col justify-center w-1/2 px-24 self-center">
             <StaticImage
               src="../images/bathroom.png"
               alt="Wilson Farr Cleaning Services logo"
               className="w-3/4 self-center"
+              style={{
+                maxWidth: `350px`,
+              }}
             />
 
             <h2 className="text-xl font-semibold text-gray-900 pt-8">
