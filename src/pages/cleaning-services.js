@@ -43,8 +43,8 @@ const cleaningServices = () => {
             <StaticImage
               src="../images/bathroom.png"
               alt="Wilson Farr Cleaning Services logo"
+              className="w-1/2 self-center"
               style={{ minHeight: `300px`, minWidth: `360px` }}
-              className="w-1/2 self-center "
             />
 
             <h1 className="text-xl font-semibold text-gray-900 pt-8">
@@ -75,7 +75,8 @@ const cleaningServices = () => {
 
           {/* right column desktop*/}
           <div className="flex justify-center w-1/2 px-12">
-            <div className="w-1/2 text-left align-middle items-center justify-items-center text-gray-800 font-light">
+
+            <div className="w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
               <h1 className="text-xl font-semibold text-gray-900">Kitchen</h1>
               <ul className="list-disc p-4">
                 <li>Disinfect sink, countertops </li>
@@ -98,7 +99,8 @@ const cleaningServices = () => {
                 <li>Turndown service</li>
               </ul>
             </div>
-            <div className="w-1/2 text-left align-middle items-center justify-items-center text-gray-800 font-light">
+
+            <div className="w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
               <h1 className="text-xl font-semibold text-gray-900">
                 Dining & Common Areas
               </h1>
