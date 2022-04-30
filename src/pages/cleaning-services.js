@@ -37,9 +37,9 @@ const cleaningServices = () => {
 
       {/* house cleaning services */}
       <section>
-        <div className="flex w-full bg-white p-12" style={{ width: `100vw` }}>
+        <div className="lg:flex w-full bg-white p-12" style={{ width: `100vw` }}>
           {/* left column desktop*/}
-          <div className="flex flex-col justify-center w-1/2 px-24 self-center">
+          <div className=" flex flex-col justify-center lg:w-1/2 lg:px-24 self-center">
             <StaticImage
               src="../images/bathroom.png"
               alt="Wilson Farr Cleaning Services logo"
@@ -76,9 +76,9 @@ const cleaningServices = () => {
           </div>
 
           {/* right column desktop*/}
-          <div className="flex justify-center w-1/2 px-12">
+          <div className="md:flex justify-center lg:w-1/2 lg:px-12">
 
-            <div className="w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
+            <div className="md:w-1/2 p-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
               <h2 className="text-xl font-semibold text-gray-900">Kitchen</h2>
               <ul className="list-disc p-4">
                 <li>Disinfect sink, countertops </li>
@@ -102,7 +102,7 @@ const cleaningServices = () => {
               </ul>
             </div>
 
-            <div className="w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
+            <div className="md:w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
               <h2 className="text-xl font-semibold text-gray-900">
                 Dining & Common Areas
               </h2>
