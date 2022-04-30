@@ -284,7 +284,7 @@ const termsOfService = () => {
             <div className="py-6">
               <h4 className="text-xl font-semibold">Our Expectations</h4>
               <p className="text-lg text-black">
-                <ul className="list-disc">
+                <ul className="list-disc" >
                   <li>
                     In order to get the most out of your service, we ask that
                     our workspace be free of as many distractions as possible.{" "}

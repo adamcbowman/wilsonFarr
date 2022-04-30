@@ -17,7 +17,7 @@ const Reviews = () => {
             <div className="p-4 md:pt-6">
               {
                 [1,2,3,4,5].map(i => (
-                  <FontAwesomeIcon key={i} icon={faStar} className="py-12 px-4 text-yellow-400 text-2xl md:text-6xl" />   
+                  <FontAwesomeIcon key={i} icon={faStar} className="pt-6 px-4 text-yellow-400 text-2xl md:text-6xl" />   
                 ))
                 }
               </div>
