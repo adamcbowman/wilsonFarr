@@ -38,6 +38,7 @@ const termsOfService = () => {
       <section className="w-full">
         <div className="flex flex-col justify-center items-center bg-white">
           <div className="w-screen p-6 md:w-1/2">
+            
             <div className="pt-6">
               <h4 className="text-xl font-semibold">
                 Appointments & Hours of Operation
@@ -64,7 +65,7 @@ const termsOfService = () => {
               </p>
             </div>
 
-            <div className="py-6">
+            <div className="pt-6">
               <h4 className="text-xl font-semibold">Cancellation Policy</h4>
               <p className="text-lg text-black">
                 <ul className="list-disc">
@@ -98,7 +99,7 @@ const termsOfService = () => {
               </p>
             </div>
 
-            <div className="py-6">
+            <div className="pt-6">
               <h4 className="text-xl font-semibold">
                 Disclaimers & Service Limitations
               </h4>
@@ -197,7 +198,7 @@ const termsOfService = () => {
               </p>
             </div>
 
-            <div className="py-6">
+            <div className="pt-6">
               <h4 className="text-xl font-semibold">
                 Payment Policy & Billing
               </h4>
@@ -234,7 +235,7 @@ const termsOfService = () => {
               </p>
             </div>
 
-            <div className="py-6">
+            <div className="pt-6">
               <h4 className="text-xl font-semibold">Release of Liability</h4>
               <p className="text-lg text-black">
                 <ul className="list-disc">
@@ -281,7 +282,7 @@ const termsOfService = () => {
               </p>
             </div>
 
-            <div className="py-6">
+            <div className="pt-6">
               <h4 className="text-xl font-semibold">Our Expectations</h4>
               <p className="text-lg text-black">
                 <ul className="list-disc" >
@@ -330,6 +331,7 @@ const termsOfService = () => {
                 We are looking forward to making your space sparkle!
               </p>
             </div>
+            
           </div>
         </div>
       </section>

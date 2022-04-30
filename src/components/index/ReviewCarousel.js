@@ -2,6 +2,7 @@ import React from "react";
 import ReviewCard from "./ReviewCard";
 import Slider from "react-slick/lib/slider";
 import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const reviewData = [
   {
@@ -41,12 +42,14 @@ const reviewData = [
 const ReviewCarousel = () => {
   const settings = {
     infinite: true,
-    speed: 700,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
-    arrows: false,
+    autoplaySpeed: 6000,
+    arrows: true,
+    draggable: true,
+    swipeToSlide: true,
   };
 
   return (
