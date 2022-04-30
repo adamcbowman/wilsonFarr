@@ -12,13 +12,13 @@ const Footer = () => (
           href="https://www.facebook.com/Wilson-Farr-Cleaning-Solutions-113754693875893"
           className="p-6"
         >
-          <FontAwesomeIcon icon={faFacebookF} className="h-10" />
+          <FontAwesomeIcon icon={faFacebookF}  style={{ height: `27px`}}/>
         </a>
         <a
           href="https://www.instagram.com/wilsonandfarrcleaningsolutions/"
           className="p-6"
         >
-          <FontAwesomeIcon icon={faInstagram} className="h-10" />
+          <FontAwesomeIcon icon={faInstagram} style={{ height: `30px`}}/>
         </a>
       </div>
       <p className="p-2 font-thin text-lg">Kentville, Nova Scotia</p>

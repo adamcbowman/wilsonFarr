@@ -6,7 +6,7 @@ const contact = () => {
     <Layout>
       <section>
         <div className="px-8 items-center text-center bg-white w-full h-screen">
-          <div className="text-black text-xl pt-20">
+          <div className="pt-20">
             <h1 className="text-xl text-black font-bold">Contact Us</h1>
           </div>
         </div>
