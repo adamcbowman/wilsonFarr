@@ -14,10 +14,12 @@ const CardsSection = () => {
             bgImg={cleaningImg1}
             title="House Cleaning Service"
             text="Standard, Deep Clean & Move In/Move Out Services"
+            id=""
           ></ServiceCard>
           <ServiceCard bgImg={cleaningImg2}
           title="Office Cleaning Service"
           text="Leave your Office Cleaning duties to our professionals"
+          id="office"
           >
           </ServiceCard>
         </div>

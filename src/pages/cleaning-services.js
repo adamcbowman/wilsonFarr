@@ -129,7 +129,7 @@ const cleaningServices = () => {
       </section>
 
       {/* office header */}
-      <section>
+      <section id="office">
         <div
           className="container flex flex-col justify-items-center justify-center w-full"
           style={{ position: `relative` }}

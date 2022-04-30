@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../Button';
 import { Link } from 'gatsby';
 
-const ServiceCard = ({ bgImg, className, title, text }) => (
+const ServiceCard = ({ bgImg, className, title, text, id }) => (
   <>
     <div className="container flex rounded-lg" style={{ position: `relative` }}>
       <div
@@ -36,7 +36,7 @@ const ServiceCard = ({ bgImg, className, title, text }) => (
       >
         <p className="font-semibold text-4xl text-white mt-10">{title}</p>
         <p className="mt-2 mb-4 text-lg text-white italic">{text}</p>
-        <Link to="/cleaning-services" className='text-white'><Button classname="outline-white" size="l">Read More</Button></Link>
+        <Link to={`/cleaning-services#${id}`} className='text-white'><Button classname="outline-white" size="l">Read More</Button></Link>
       </div>
     </div>
   </>
