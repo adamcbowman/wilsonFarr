@@ -1,4 +1,27 @@
 import React from 'react';
+import styled from "styled-components"
+import CheckMark from "../../svg/CheckMark.js"
+
+const Checklist = styled.ul`
+  list-style: none;
+  `
+  
+const ChecklistItem = styled.li`
+  padding: 0.25rem;
+  padding-left: 1rem;
+  `
+
+const ListItem = ({item}) => {
+  return (
+    <div className='flex flex-row items-center'>
+    <CheckMark/>
+    <ChecklistItem>
+      {item}
+    </ChecklistItem>
+    </div>
+  )
+}
+
 
 const ServiceFeatures = () => {
   return (
@@ -14,27 +37,27 @@ const ServiceFeatures = () => {
           </div>
           <div className="w-full md:w-1/2 md:flex flex-row font-semibold text-gray-800">
             <div className="w-full md:w-1/2 ">
-              <ul  style={{ listStyleType: `'✅'` }}>
-                <li className='p-1'> Quality-Focused Services </li>
-                <li className='p-1'> Insured </li>
-                <li className='p-1'> Vaccinated Staff</li>
-                <li className='p-1'> Move In/Move Out Services </li>
-                <li className='p-1'> Locally Owned and Operated</li>
-                <li className='p-1'> Staff Background Checks</li>
-                <li className='p-1'> Office Cleaning Service</li>
-              </ul>
+              <Checklist>
+                <ListItem item="Quality-Focused Services" />
+                <ListItem item="Insured" />
+                <ListItem item="Vaccinated Staff" />
+                <ListItem item="Move In/Move Out Services" />
+                <ListItem item="Locally Owned and Operated" />
+                <ListItem item="Staff Background Checks" />
+                <ListItem item="Office Cleaning Service" />
+              </Checklist>
             </div>
             <div className="w-full md:w-1/2">
-              <ul  style={{ listStyleType: `'✅'` }}>
-                <li className='p-1'>Professional & Devoted Teams</li>
-                <li className='p-1'>Detail-Oriented</li>
-                <li className='p-1'>Sanitizing Services</li>
-                <li className='p-1'>Deep Cleaning Service</li>
-                <li className='p-1'>Interior & Exterior Window Cleaning</li>
-                <li className='p-1'>Special Requests</li>
-                <li className='p-1'>Eco-Friendly & Green Products</li>
-                <li className='p-1'>Recurring Cleaning Services</li>
-              </ul>
+              <Checklist>
+                <ListItem item="Professional & Devoted Teams" />
+                <ListItem item="Detail-Oriented" />
+                <ListItem item="Sanitizing Services" />
+                <ListItem item="Deep Cleaning Service" />
+                <ListItem item="Interior & Exterior Window Cleaning" />
+                <ListItem item="Special Requests" />
+                <ListItem item="Eco-Friendly & Green Products" />
+                <ListItem item="Recurring Cleaning Services" />
+              </Checklist>
             </div>
           </div>
         </div>
