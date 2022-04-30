@@ -7,13 +7,13 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 const Reviews = () => {
   return (
     <section id="features" className="md:pt-10 bg-white" style={{ position: 'relative' }}>
-      <div className="flex w-screen bg-black">
+      <div className="flex bg-black">
         <div
           className="w-screen bg-cover bg-center"
-          style={{ backgroundImage: `url(${bgImg})`, minHeight: `400px`, opacity: "0.8" }}
+          style={{ backgroundImage: `url(${bgImg})`, minHeight: `500px`, opacity: "0.8" }}
         ></div>
          
-          <div className="flex flex-col items-center justify-items-center" style={{ position: 'absolute'}}>
+          <div className="flex flex-col items-center justify-items-center w-full" style={{ position: 'absolute'}}>
             <div className="p-4 md:pt-6">
               {
                 [1,2,3,4,5].map(i => (

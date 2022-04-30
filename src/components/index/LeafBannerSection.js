@@ -3,10 +3,10 @@ import backgroundImage from '../../images/125189448_-113758903875472-_3951410496
 
 const LeafBannerSection = () => {
   return (
-    <section className="pt-6 md:pt-10">
-    <div className="container w-screen" style={{ position: `relative`, minHeight: `350px` }}>
+    <section className="pt-6 md:pt-10" style={{ overflow: `clip` }}>
+    <div className="w-screen" style={{ position: `relative`}}>
       <div
-        className="w-screen"
+        className="w-full"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundPosition: `bottom`,

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../Button';
+import { Link } from 'gatsby';
 
 const ServiceCard = ({ bgImg, className, title, text }) => (
   <>
@@ -35,7 +36,7 @@ const ServiceCard = ({ bgImg, className, title, text }) => (
       >
         <p className="font-semibold text-4xl text-white mt-10">{title}</p>
         <p className="mt-2 mb-4 text-lg text-white italic">{text}</p>
-        <Button classname="outline-white" size="l">Read More</Button>
+        <Button classname="outline-white" size="l"><Link to="/cleaning-services" className='text-white'>Read More</Link></Button>
       </div>
     </div>
   </>
