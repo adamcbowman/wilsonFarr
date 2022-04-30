@@ -46,9 +46,9 @@ const cleaningServices = () => {
               className="w-3/4 self-center"
             />
 
-            <h1 className="text-xl font-semibold text-gray-900 pt-8">
+            <h2 className="text-xl font-semibold text-gray-900 pt-8">
               Standard, Deep Clean & Move In/Move Out Services
-            </h1>
+            </h2>
             <p className=" text-gray-800 pt-6 font-light">
               Schedule a{" "}
               <span className="font-bold ">Standard Cleaning Service</span> to
@@ -76,7 +76,7 @@ const cleaningServices = () => {
           <div className="flex justify-center w-1/2 px-12">
 
             <div className="w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
-              <h1 className="text-xl font-semibold text-gray-900">Kitchen</h1>
+              <h2 className="text-xl font-semibold text-gray-900">Kitchen</h2>
               <ul className="list-disc p-4">
                 <li>Disinfect sink, countertops </li>
                 <li>Clean refrigerator (interior & exterior)</li>
@@ -86,7 +86,7 @@ const cleaningServices = () => {
                 <li>Vacuum & mop floor</li>
                 <li>Windows (interior glass, sills & tracks)</li>
               </ul>
-              <h1 className="text-xl font-semibold text-gray-900">Bedrooms</h1>
+              <h2 className="text-xl font-semibold text-gray-900">Bedrooms</h2>
               <ul className="list-disc p-4">
                 <li>
                   Dust & wet wipe (blinds, light fixtures/ceiling fans, corners,
@@ -100,9 +100,9 @@ const cleaningServices = () => {
             </div>
 
             <div className="w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
-              <h1 className="text-xl font-semibold text-gray-900">
+              <h2 className="text-xl font-semibold text-gray-900">
                 Dining & Common Areas
-              </h1>
+              </h2>
               <ul className="list-disc p-4">
                 <li>
                   Dust & wet wipe (blinds, light fixtures/ceiling fans, corners,
@@ -114,7 +114,7 @@ const cleaningServices = () => {
                 <li>Garbage removal</li>
                 <li>Windows (interior glass, sills & tracks)</li>
               </ul>
-              <h1 className="text-xl font-semibold text-gray-900">Bathrooms</h1>
+              <h2 className="text-xl font-semibold text-gray-900">Bathrooms</h2>
               <ul className="list-disc p-4">
                 <li>Disinfect (sinks, countertops, showers, tubs, and toilets)</li>
                 <li>Vacuum floors/carpets & mop</li>
