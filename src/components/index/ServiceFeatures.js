@@ -45,6 +45,7 @@ const ServiceFeatures = () => {
                 <ListItem item="Locally Owned and Operated" />
                 <ListItem item="Staff Background Checks" />
                 <ListItem item="Office Cleaning Service" />
+                <ListItem item="Deep Cleaning Service" />
               </Checklist>
             </div>
             <div className="w-full md:w-1/2">
@@ -52,7 +53,7 @@ const ServiceFeatures = () => {
                 <ListItem item="Professional & Devoted Teams" />
                 <ListItem item="Detail-Oriented" />
                 <ListItem item="Sanitizing Services" />
-                <ListItem item="Deep Cleaning Service" />
+                
                 <ListItem item="Interior & Exterior Window Cleaning" />
                 <ListItem item="Special Requests" />
                 <ListItem item="Eco-Friendly & Green Products" />
