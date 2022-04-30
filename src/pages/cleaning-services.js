@@ -157,13 +157,65 @@ const cleaningServices = () => {
       </section>
 
       {/* office cleaning services */}
-      {/* house cleaning services */}
       <section>
-        <div
-          className="flex flex-col w-full bg-white h-screen"
-          style={{ width: `100vw` }}
-        >
-          <p className="text-black">office cleaning services</p>
+        <div className="lg:flex w-full bg-white p-12" style={{ width: `100vw` }}>
+          {/* left column desktop*/}
+          <div className=" flex flex-col justify-center lg:w-1/2 lg:px-24 self-center">
+            <StaticImage
+              src="../images/cleaning-10.png"
+              alt="Wilson Farr Cleaning Services logo"
+              className="w-3/4 self-center"
+              style={{
+                maxWidth: `350px`,
+              }}
+            />
+
+            <h2 className="text-xl font-semibold text-gray-900 pt-8">
+            Office Cleaning Service
+            </h2>
+            <p className=" text-gray-800 pt-6 font-light">
+              Leave your <span className="font-bold ">Office Cleaning </span>duties to our professionals. We offer a variety of cleaning services for your business, to ensure your employees can work in a clean and healthy environment
+            </p>
+            
+          </div>
+
+          {/* right column desktop*/}
+          <div className="md:flex justify-center lg:w-1/2 lg:px-12">
+
+            <div className="md:w-1/2 p-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
+              <h2 className="text-xl font-semibold text-gray-900">Working Areas</h2>
+              <ul className="list-disc p-4">
+              <li>Empty all garbage receptacles</li>
+              <li>Vacuum carpeted floors </li>
+              <li>Mop hard surface floors </li>
+              <li>Dust all surfaces</li>
+              <li>Spot clean partition glass</li>
+              <li>Sanitize high-touch surfaces  (including doorknobs, light switches & telephones)</li>
+              </ul>
+              <h2 className="text-xl font-semibold text-gray-900">Restrooms</h2>
+              <ul className="list-disc p-4">
+              <li>Empty garbage receptacles</li>
+              <li>Clean and polish mirrors</li>
+              <li>Sanitize toilets, urinals, sinks, and countertops</li>
+              <li>Vacuum floors </li>
+              <li>Mop floors</li>
+              </ul>
+            </div>
+
+            <div className="md:w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
+              <h2 className="text-xl font-semibold text-gray-900">
+              Kitchen 
+              </h2>
+              <ul className="list-disc p-4">
+              <li>Empty all garbage receptacles</li>
+              <li>Vacuum carpeted floors</li>
+              <li>Mop hard surface floors</li>
+              <li>Dust all horizontal surfaces</li>
+              <li>Sanitize high touch surfaces (including stovetop, fridge, microwave, countertops, chairs, and tables)</li>
+              </ul>
+
+            </div>
+          </div>
         </div>
       </section>
     </Layout>
