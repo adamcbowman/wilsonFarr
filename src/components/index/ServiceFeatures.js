@@ -25,7 +25,7 @@ const ListItem = ({item}) => {
 
 const ServiceFeatures = () => {
   return (
-    <section className="pt-4 bg-white">
+    <section className="py-4 bg-white">
       <div className="container mx-auto px-8 items-center">
         <div className="md:flex md:flex-row">
           <div className="w-full md:w-1/2 md:px-12 py-6">
