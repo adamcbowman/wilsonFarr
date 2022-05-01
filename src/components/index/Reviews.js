@@ -13,8 +13,9 @@ const Reviews = () => {
           style={{ backgroundImage: `url(${bgImg})`, minHeight: `500px`, opacity: "0.8" }}
         ></div>
          
-          <div className="flex flex-col items-center justify-items-center w-full" style={{ position: 'absolute'}}>
+          <div className="flex flex-col w-full items-center justify-items-center" style={{ position: 'absolute'}}>
             <div className="p-4 md:pt-6">
+              {/* 5 stars loop*/}
               {
                 [1,2,3,4,5].map(i => (
                   <FontAwesomeIcon key={i} icon={faStar} className="pt-6 px-4 text-yellow-400 text-2xl md:text-6xl" />   

@@ -102,7 +102,7 @@ const cleaningServices = () => {
               </ul>
             </div>
 
-            <div className="md:w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
+            <div className="md:w-1/2 p-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
               <h2 className="text-xl font-semibold text-gray-900">
                 Dining & Common Areas
               </h2>
@@ -202,7 +202,7 @@ const cleaningServices = () => {
               </ul>
             </div>
 
-            <div className="md:w-1/2 px-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
+            <div className="md:w-1/2 p-6 text-left align-middle items-center justify-items-center text-gray-800 font-light">
               <h2 className="text-xl font-semibold text-gray-900">
               Kitchen 
               </h2>

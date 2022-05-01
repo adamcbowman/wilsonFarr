@@ -39,7 +39,9 @@ const reviewData = [
   },
 ];
 
+
 const ReviewCarousel = () => {
+
   const settings = {
     infinite: true,
     speed: 1000,
@@ -47,14 +49,14 @@ const ReviewCarousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,
-    arrows: true,
     draggable: true,
     swipeToSlide: true,
+    adaptiveHeight: false,
   };
 
   return (
-    <div className="review-carousel w-2/3 h-3/4">
-      <Slider {...settings}>
+    <div className="w-2/3 py-6" >
+      <Slider {...settings} >
         {reviewData.map((review, i) => (
           <ReviewCard key={i} {...review} />
         ))}

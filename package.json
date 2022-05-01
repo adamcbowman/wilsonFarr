@@ -1,7 +1,7 @@
 {
   "name": "gatsby-wilson-farr",
   "author": "Adam Bowman",
-  "repository": "",
+  "repository": "https://github.com/adamcbowman/wilsonFarr",
   "version": "1.1.0",
   "license": "MIT",
   "scripts": {

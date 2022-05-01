@@ -17,14 +17,14 @@ const LeafBannerSection = () => {
         }}
       ></div>
       <div
-        className="container flex flex-col"
+        className="container flex flex-col w-full"
         style={{ position: `absolute`, top: `0`, left: `0` }}
       >
-        <h1 className="hidden">Wilson & Farr Cleaning Solutions</h1>
-        <h1 className="text-xl lg:text-4xl px-6 lg:px-20 text-gray-100 mt-20 font-bold">
+        <h1 className="hidden">Wilson & Farr Cleaning Solutions - Annapolis Valley Nova Scotia</h1>
+        <h1 className="text-3xl lg:text-4xl px-6 lg:px-20 text-gray-100 mt-24 lg:mt-32 font-bold">
           HOME & OFFICE CLEANING PROFESSIONALS
         </h1>
-        <h3 className="lg:text-xl px-6 pt-4 lg:px-20  text-gray-100 uppercase">
+        <h3 className="lg:text-lg px-6 pt-4 lg:px-20 font-semibold text-gray-200 ">
           Proudly Serving the Annapolis Valley: Coldbrook, Kentville, New Minas, Port WIlliams,
           Canning, Wolfville, Hantsport & Windsor
         </h3>        

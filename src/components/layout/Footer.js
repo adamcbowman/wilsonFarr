@@ -36,7 +36,7 @@ const Footer = () => (
         © {new Date().getFullYear()} Wilson & Farr Cleaning Solutions
       </p>
       <p className="pt-2 text-sm font-mono">
-        site by <a href="https://adambowman.tech" target={ '_blank' }>ACB Consulting</a>
+        site by <a href="https://adambowman.tech" target="_blank" rel="noreferrer">ACB Consulting</a>
       </p>
     </div>
   </footer>
