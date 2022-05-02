@@ -10,8 +10,22 @@ const about = () => {
           className="container flex flex-col justify-items-center justify-center w-full"
           style={{ position: `relative` }}
         >
+
+        {/* xl banner */}
+                   <div
+            className="w-screen bg-cover hidden xl:block"
+            style={{
+              backgroundImage: `url(${bgImg})`,
+              minHeight: `600px`,
+              minWidth: `100%`,
+              backgroundSize: `cover`,
+              backgroundPosition: `center`,
+              opacity: `65%`,
+            }}
+          ></div> 
+          {/* md banner */}
           <div
-            className="w-screen bg-cover hidden md:block"
+            className="w-screen bg-cover hidden md:block xl:hidden"
             style={{
               backgroundImage: `url(${bgImg})`,
               minHeight: `400px`,
@@ -21,6 +35,7 @@ const about = () => {
               opacity: `65%`,
             }}
           ></div>
+          {/* mobile banner */}
           <div
             className="w-screen bg-cover block md:hidden "
             style={{
