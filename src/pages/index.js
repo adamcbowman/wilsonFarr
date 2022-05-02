@@ -7,6 +7,7 @@ import LeafBannerSection from '../components/index/LeafBannerSection';
 import ServiceCardsSection from '../components/index/ServiceCardsSection';
 import ServiceFeatures from '../components/index/ServiceFeatures';
 import Reviews from '../components/index/Reviews';
+import MobileCardsSection from '../components/index/mobileCardsSection';
 
 const Index = () => (
   <Layout>
@@ -14,6 +15,7 @@ const Index = () => (
     <LeafBannerSection />
     <ServiceCardsSection />
     <ServiceFeatures />
+    <MobileCardsSection />
     <Reviews />
   </Layout>
 );

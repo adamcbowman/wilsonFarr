@@ -9,7 +9,7 @@ const CardsSection = () => {
     <section id="features" className=" hidden md:block py-10 lg:pt-10 bg-white ">
       <div className="container mx-auto">
           <hr />
-        <div className="lg:flex sm:-mx-3 my-8">
+        <div className="lg:flex my-8">
           <ServiceCard
             bgImg={cleaningImg1}
             title="House Cleaning Service"
