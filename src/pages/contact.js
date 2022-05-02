@@ -1,9 +1,11 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
+import Seo from "../components/seo";
 
 const contact = () => {
   return (
     <Layout>
+      <Seo title="Contact Us" />
       <section>
         <div className="items-center text-center bg-white w-full h-screen">
           <object

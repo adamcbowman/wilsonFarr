@@ -1,10 +1,12 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
+import Seo from "../components/seo";
 import backgroundImage from "../images/125189448_-113758903875472-_3951410496181531443_n.jpg";
 
 const termsOfService = () => {
   return (
     <Layout>
+      <Seo title="Terms of Service" />
       {/* header */}
       <section>
         <div

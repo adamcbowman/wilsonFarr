@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/layout/Layout';
+import Seo from '../components/seo';
 
 import HeroSection from '../components/index/HeroSection';
 import LeafBannerSection from '../components/index/LeafBannerSection';
@@ -11,6 +12,7 @@ import MobileCardsSection from '../components/index/mobileCardsSection';
 
 const Index = () => (
   <Layout>
+    <Seo title="Home" />
     <HeroSection />
     <LeafBannerSection />
     <ServiceCardsSection />

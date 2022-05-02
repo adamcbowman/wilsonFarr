@@ -1,12 +1,15 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import Layout from "../components/layout/Layout";
+import Seo from "../components/seo";
 import bgImg from "../images/cleaning-4.png";
 import bgImg2 from "../images/cleaning-7.png";
+
 
 const cleaningServices = () => {
   return (
     <Layout>
+      <Seo title="Cleaning Services" />
       {/* house cleaning header */}
       <section>
         <div

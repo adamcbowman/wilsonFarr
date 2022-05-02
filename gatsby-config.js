@@ -1,4 +1,10 @@
 module.exports = {
+  siteMetadata: {
+    title: `Wilson & Farr Cleaning Solutions`,
+    description: `Cleaning Services in the Annapolis Valley, Nova Scotia: Coldbrook, Kentville, New Minas, Port WIlliams,
+    Canning, Wolfville, Hantsport & Windsor`,
+    author: `adambowman.tech`,
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,

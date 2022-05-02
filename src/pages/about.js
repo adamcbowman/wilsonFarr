@@ -1,10 +1,13 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
+import Seo from "../components/seo";
+
 import bgImg from "../images/AboutUs.jpg";
 
 const about = () => {
   return (
     <Layout>
+      <Seo title="About Us" />
       <section id="header">
         <div
           className="container flex flex-col justify-items-center justify-center w-full"
