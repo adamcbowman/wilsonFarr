@@ -16,7 +16,7 @@ const about = () => {
             className="w-screen bg-cover hidden xl:block"
             style={{
               backgroundImage: `url(${bgImg})`,
-              minHeight: `600px`,
+              minHeight: `500px`,
               minWidth: `100%`,
               backgroundSize: `cover`,
               backgroundPosition: `center`,
