@@ -50,20 +50,21 @@ const about = () => {
           operations. Quality, integrity and professionalism were integral
           values that enabled them to thrive in their fields. 
           </p>
-          <p className="text-gray-800 font-light p-2 text-justify">
+          <p className="text-gray-800 font-normal p-2 text-center">
+          The goal when starting Wilson & Farr Cleaning Solutions was simple;<br />
+          To exceed client’s expectations by providing outstanding customer
+          service, and delivering meticulous quality-focused cleaning
+          operations.
+          </p>
+          <p className="text-gray-900 font-light p-2 text-justify">
           Helping their clients celebrate milestones and assisting clients
           through life transitions, Wilson & Farr Cleaning Solutions helps to
           give back to their community. Whether preparing homes for listing,
           assisting older adults, alleviating stress in busy households, or
           creating a safe and healthy work environment, they are devoted to
-          making spaces sparkle.
+          making spaces <em>sparkle</em>.
           </p>
-          <p className="text-gray-800 font-light p-2 text-justify">
-          Their goal when starting Wilson & Farr Cleaning Solutions was simple;
-          to exceed client’s expectations by providing outstanding customer
-          service, and delivering meticulous quality-focused cleaning
-          operations.
-          </p>
+ 
         </div>
       </section>
     </Layout>

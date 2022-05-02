@@ -19,11 +19,11 @@ const Header = () => {
       link: '/cleaning-services',
     },
     {
-      name: 'About Us',
+      name: 'About',
       link: '/about',
     },
     {
-      name: 'Contact Us',
+      name: 'Contact',
       link: '/contact',
     },
     {
