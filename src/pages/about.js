@@ -41,7 +41,8 @@ const about = () => {
         </div>
       </section>
       <section id="about">
-        <div className="flex flex-col justify-center items-center bg-white p-8 md:p-20 text-justify ">
+        <div className="flex flex-col justify-center items-center bg-white p-8 md:p-16  text-justify ">
+          <div className="xl:w-1/2 w-full">
           <p className="text-gray-800 font-light p-2 lg:p-6 text-justify lg:text-center">
           Wilson & Farr Cleaning Solutions was established in 2020 by
           proprietors Alex and Tamara. Using their managerial skills,
@@ -50,7 +51,7 @@ const about = () => {
           operations. Quality, integrity and professionalism were integral
           values that enabled them to thrive in their fields. 
           </p>
-          <p className="text-gray-800 font-normal p-2 lg:p-6 text-center lg:text-center">
+          <p className="text-gray-800 font-normal p-6 lg:p-12 text-center lg:text-center">
           The goal when starting Wilson & Farr Cleaning Solutions was simple;<br />
           To exceed client’s expectations by providing outstanding customer
           service, and delivering meticulous quality-focused cleaning
@@ -64,7 +65,7 @@ const about = () => {
           creating a safe and healthy work environment, they are devoted to
           making spaces <em>sparkle</em>.
           </p>
- 
+        </div>
         </div>
       </section>
     </Layout>
