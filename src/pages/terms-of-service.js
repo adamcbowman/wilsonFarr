@@ -37,13 +37,13 @@ const termsOfService = () => {
       {/* body */}
       <section className="w-full">
         <div className="flex flex-col justify-center items-center bg-white">
-          <div className="w-screen p-6 md:w-1/2">
+          <div className="w-screen p-10 md:p-20 lg:w-2/3 xl:w-1/2">
             
             <div className="pt-6">
               <h4 className="text-xl font-semibold">
                 Appointments & Hours of Operation
               </h4>
-              <p className="text-lg text-black">
+              <p className="text-gray-800 pt-6 font-light">
                 <ul className="list-disc p-4">
                   <li>
                     Wilson & Farr Cleaning Solutions is open 9:00 am - 6:00 pm,
@@ -67,7 +67,7 @@ const termsOfService = () => {
 
             <div className="pt-6">
               <h4 className="text-xl font-semibold">Cancellation Policy</h4>
-              <p className="text-lg text-black">
+              <p className="text-gray-800 pt-6 font-light">
                 <ul className="list-disc">
                   <li>
                     In the event that we are not able to access your property
@@ -89,7 +89,7 @@ const termsOfService = () => {
               <h4 className="text-xl font-semibold">
                 Confidentiality & Client Privacy
               </h4>
-              <p className="text-lg text-black">
+              <p className="text-gray-800 pt-6 font-light">
                 <ul className="list-disc">
                   <li>
                     Wilson & Farr Cleaning Solutions will not share details of
@@ -103,7 +103,7 @@ const termsOfService = () => {
               <h4 className="text-xl font-semibold">
                 Disclaimers & Service Limitations
               </h4>
-              <p className="text-lg text-black">
+              <p className="text-gray-800 pt-6 font-light">
                 <ul className="list-disc">
                   <li>
                     We reserve the right to refuse service to anyone for any
@@ -202,7 +202,7 @@ const termsOfService = () => {
               <h4 className="text-xl font-semibold">
                 Payment Policy & Billing
               </h4>
-              <p className="text-lg text-black">
+              <p className="text-gray-800 pt-6 font-light">
                 <ul className="list-disc">
                   <li>
                     To secure your appointment time with Wilson & Farr Cleaning
@@ -237,7 +237,7 @@ const termsOfService = () => {
 
             <div className="pt-6">
               <h4 className="text-xl font-semibold">Release of Liability</h4>
-              <p className="text-lg text-black">
+              <p className="text-gray-800 pt-6 font-light">
                 <ul className="list-disc">
                   <li>
                     Please note that valuable items such as sentimental pieces
@@ -284,7 +284,7 @@ const termsOfService = () => {
 
             <div className="pt-6">
               <h4 className="text-xl font-semibold">Our Expectations</h4>
-              <p className="text-lg text-black">
+              <p className="text-gray-800 pt-6 font-light">
                 <ul className="list-disc" >
                   <li>
                     In order to get the most out of your service, we ask that
@@ -316,7 +316,7 @@ const termsOfService = () => {
             </div>
 
             <div className="py-6">
-              <p className="text-lg text-black font-semibold">
+              <p className="text-gray-800 pt-6 ">
                 Wilson & Farr Cleaning Solutions reserves the right to make
                 amendments to these conditions without giving prior notice. By
                 requesting Wilson & Farr Cleaning Solutions to provide service
