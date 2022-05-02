@@ -10,12 +10,14 @@ const Footer = () => (
       <div className="flex text-xl">
         <a
           href="https://www.facebook.com/Wilson-Farr-Cleaning-Solutions-113754693875893"
+          target="_blank" rel="noreferrer"
           className="p-6"
         >
           <FontAwesomeIcon icon={faFacebookF}  style={{ height: `27px`}}/>
         </a>
         <a
           href="https://www.instagram.com/wilsonandfarrcleaningsolutions/"
+          target="_blank" rel="noreferrer"
           className="p-6"
         >
           <FontAwesomeIcon icon={faInstagram} style={{ height: `30px`}}/>
@@ -27,9 +29,9 @@ const Footer = () => (
           902-993-0049
         </a>
       </p>
-      <p className="p-2 font-medium md:text-lg font-mono">
+      <p className="p-2 font-medium md:text-lg ">
         <a href="mailto:wilsonfarrcleaningsolutions@gmail.com">
-          wilsonfarrcleaningsolutions@gmail.com
+          WilsonFarrCleaningSolutions@gmail.com
         </a>
       </p>
       <p className="pt-16 text-xs font-light">

@@ -14,13 +14,13 @@ const Header = () => {
       name: 'Home',
       link: '/',
     },
-    // {
-    //   name: 'About',
-    //   link: '/about',
-    // },
     {
       name: 'Cleaning Services',
       link: '/cleaning-services',
+    },
+    {
+      name: 'About Us',
+      link: '/about',
     },
     {
       name: 'Contact Us',
