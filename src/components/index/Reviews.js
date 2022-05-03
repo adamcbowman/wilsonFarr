@@ -18,7 +18,7 @@ const Reviews = () => {
               {/* 5 stars loop*/}
               {
                 [1,2,3,4,5].map(i => (
-                  <Star className="pt-12 px-2 m-6 text-yellow-400 text-2xl md:text-6xl" />   
+                  <Star className="pt-12 px-2 m-6 text-yellow-400" />   
                 ))
                 }
               </div>
