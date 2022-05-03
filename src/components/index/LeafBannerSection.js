@@ -17,7 +17,7 @@ const LeafBannerSection = () => {
         }}
       ></div>
       <div
-        className="container flex flex-col w-full"
+        className=" flex flex-col w-screen text-center "
         style={{ position: `absolute`, top: `0`, left: `0` }}
       >
         <h1 className="hidden">Wilson & Farr Cleaning Solutions - Annapolis Valley Nova Scotia</h1>

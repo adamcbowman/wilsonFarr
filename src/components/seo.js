@@ -60,7 +60,7 @@ function Seo({ description, lang, meta, title }) {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
-  description: `Wilson & Farr Cleaning Solutions Annapolis Valley, Nova Scotia`,
+  description: ``,
 }
 
 Seo.propTypes = {

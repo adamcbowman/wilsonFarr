@@ -26,7 +26,7 @@ const reviewData = [
     name: "Wes",
   },
   {
-    text: "Wilson and Farr are the best at what they do. If it is your personal home or commercial cleaning you will not be disappointed. They go above and beyond any cleaning service. Their costomer service and professionalism will leave you confident knowing your are getting the best quality cleaning! You will not be disappointed!",
+    text: "Wilson and Farr are the best at what they do. If it is your personal home or commercial cleaning you will not be disappointed. They go above and beyond any cleaning service. Their customer service and professionalism will leave you confident knowing your are getting the best quality cleaning! You will not be disappointed!",
     name: "Ashley",
   },
   {

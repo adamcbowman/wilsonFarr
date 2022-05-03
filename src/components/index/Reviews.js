@@ -1,8 +1,8 @@
 import React from "react";
 import bgImg from "../../images/green-leaf-wallpapers.jpg";
 import ReviewCarousel from "./ReviewCarousel";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import Star from "../../svg/Star";
+
 
 const Reviews = () => {
   return (
@@ -14,11 +14,11 @@ const Reviews = () => {
         ></div>
          
           <div className="flex flex-col w-full items-center justify-items-center" style={{ position: 'absolute'}}>
-            <div className="p-4 md:pt-6">
+            <div className="p-4 pt-8 md:pt-20 flex">
               {/* 5 stars loop*/}
               {
                 [1,2,3,4,5].map(i => (
-                  <FontAwesomeIcon key={i} icon={faStar} className="pt-12 px-4 text-yellow-400 text-2xl md:text-6xl" />   
+                  <Star className="pt-12 px-2 m-6 text-yellow-400 text-2xl md:text-6xl" />   
                 ))
                 }
               </div>

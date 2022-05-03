@@ -5,8 +5,8 @@ import MobileCard  from './MobileCards';
 
 const mobileCardsSection = () => {
   return (
-    <section>
-      <div className="container flex flex-col justify-items-center justify-center w-full bg-white md:hidden">
+    <section className="bg-white">
+      <div className="container flex flex-col justify-items-center items-center justify-center w-full bg-white md:hidden">
         <MobileCard
           bgImg={cleaningImg1}
           title="House Cleaning Service"
