@@ -58,23 +58,23 @@ const cleaningServices = () => {
             <p className=" text-gray-800 pt-6 font-light">
               Schedule a{" "}
               <span className="font-bold ">Standard Cleaning Service</span> to
-              maintain the day-to-day living in your home
+              maintain the day-to-day living in your home.
             </p>
             <p className="text-gray-800 pt-6 font-light">
               Our <span className="font-bold ">Deep Cleaning Services</span>{" "}
               will get you back on track. Every Deep Clean includes a Standard
-              Clean, in addition to a detailed focus on the build-up
+              Clean, in addition to a detailed focus on the build-up.
             </p>
             <p className=" text-gray-800 pt-6 font-light">
               Planning on moving soon? Let our cleaning professionals make your
               move easier and stress-free with our{" "}
-              <span className="font-bold ">Move In/Move Out Service </span>
+              <span className="font-bold ">Move In/Move Out Service. </span>
             </p>
             <p className=" text-gray-800 pt-6 font-light">
               Add our{" "}
               <span className="font-bold ">Window Cleaning Service </span>
               to your next Deep Clean. This includes interior & exterior windows
-              glass, tracks, sills, and screens
+              glass, tracks, sills, and screens.
             </p>
           </div>
 
@@ -177,7 +177,7 @@ const cleaningServices = () => {
             Office Cleaning Service
             </h2>
             <p className=" text-gray-800 pt-6 font-light">
-              Leave your <span className="font-bold ">Office Cleaning </span>duties to our professionals. We offer a variety of cleaning services for your business, to ensure your employees can work in a clean and healthy environment
+              Leave your <span className="font-bold ">Office Cleaning </span>duties to our professionals. We offer a variety of cleaning services for your business, to ensure your employees can work in a clean and healthy environment.
             </p>
             
           </div>
