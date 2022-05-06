@@ -10,4 +10,4 @@ gatsby develop to run locally
 
 gatsby build to compile files for deployment 
 
-<a href="https://acbconsulting.tech>ACB Consulting</a>
+https://acbconsulting.tech
